@@ -72,6 +72,12 @@ hr{
 	background-color: #464749;
 	font-size: x-large
 }
+.listitem0:hover{
+	background-color: #464749;
+}
+.listitem1:hover{
+	background-color: black;
+}
 ul {
     list-style-type: none;
     margin: 0;
