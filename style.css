@@ -1,0 +1,75 @@
+.div1{
+	background-color:black;
+	color:white;
+	padding:20px;	
+}
+.logo{
+	width:200px;
+	height:75px;
+	float:left; 
+	margin-left: 50px; 
+	margin-top: 40px
+}
+.title{
+	color:#006aa6;
+	font-size:50px;
+	padding-left:350px;
+	font-family:'Times Header'
+}
+.div2{
+	background-color:#525453;
+	color:white;
+	padding:20px;
+	display: block;
+	text-align: center; 
+}
+.div3{
+	background-color:#9B9DA0;
+	color:white;
+	padding:20px; 
+	display: block;
+	text-align: center;
+}
+.bdiv{
+	padding-right: 100px; 
+	padding-left: 100px;
+	background-color: #c0c6d1;
+	padding-top: 15px;
+	overflow: hidden;
+}
+.maindiv{
+	width:65%; 
+	border: 3px solid #005bb7;
+	float:left;
+	overflow-x: auto; 
+	white-space: nowrap; 
+	background-color:#8dc1fc
+}
+td{
+	padding: 25px;
+}
+p{
+	text-align: center;
+}
+.rightdiv{
+	width:30%; 
+	margin: auto; 
+	border: 3px solid #005bb7;
+	float:right;
+}
+hr{
+	margin: 0;
+	color: grey;
+}
+.listitem0{
+	color: #c74434;
+	margin: 0px;
+	background-color: black;
+	font-size: x-large
+}
+.listitem1{
+	color: #c74434;
+	margin: 0px;
+	background-color: #464749;
+	font-size: x-large
+}
