@@ -26,7 +26,6 @@
 .div3{
 	background-color:#9B9DA0;
 	color:white;
-	padding:20px; 
 	display: block;
 	text-align: center;
 }
@@ -38,7 +37,7 @@
 	overflow: hidden;
 }
 .maindiv{
-	width:65%; 
+	width:66%; 
 	border: 3px solid #005bb7;
 	float:left;
 	overflow-x: auto; 
@@ -53,7 +52,7 @@ p{
 }
 .rightdiv{
 	width:30%; 
-	margin: auto; 
+	margin-bottom: 15px; 
 	border: 3px solid #005bb7;
 	float:right;
 }
@@ -72,4 +71,77 @@ hr{
 	margin: 0px;
 	background-color: #464749;
 	font-size: x-large
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #9B9DA0;
+}
+
+li {
+    float: left;
+    margin-left: 40px;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+input[type=text] {
+    width: 400px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('https://d30y9cdsu7xlg0.cloudfront.net/png/6983-200.png');
+    background-position: 5px 5px;
+    background-size: 19px 19px;
+    background-repeat: no-repeat;
+    padding: 6px 6px 6px 40px;
+}
+td:hover{
+	background-color: #ff5733;
+}
+.movielink{
+	text-decoration: none;
+	font-weight: bold;
+    font-size: large;
+    color: #005bb7;
 }
