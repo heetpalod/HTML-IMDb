@@ -8,13 +8,14 @@
 	height:75px;
 	float:left; 
 	margin-left: 50px; 
-	margin-top: 40px
+	margin-top: 20px
 }
 .title{
 	color:#006aa6;
 	font-size:50px;
-	padding-left:350px;
-	font-family:'Times Header'
+	font-family:'Times Header';
+	margin-top: 30px;
+    margin-bottom: 30px;
 }
 .div2{
 	background-color:#525453;
@@ -143,8 +144,33 @@ input[type=text] {
     background-repeat: no-repeat;
     padding: 6px 6px 6px 40px;
 }
-td:hover{
-	background-color: #ff5733;
+td{
+	position:relative;
+    display:inline-block;	
+}
+.overlay {
+    display:none;
+}
+td:hover .overlay {
+    width:100%;
+    height:100%;
+    background:rgba(111, 106, 106, 0.7);
+    border: 3px solid #de1b1b;
+    text-align: center;
+    padding-top: 20px;
+    position:absolute;
+    top:0;
+    left:0;
+    display:inline-block;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+
+    /* All other styling - see example */
+
+    img {
+        vertical-align:top; /* Default is baseline, this fixes a common alignment issue */
+    }
 }
 .movielink{
 	text-decoration: none;
@@ -186,12 +212,15 @@ div.desc {
 body { margin: 0; } 
 
 div#slider{ 
-      position: relative;
-
+  position: relative;
   width: 200%;
   margin: 10px;
-  left: 100px;
+  left: 0;
   font-size: 10;
-  animation: 150s slidy infinite; 
+  animation: 50s slidy infinite; 
 }
-
+.hovertext{
+	color: black;
+	font-size: larger;
+	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; 	
+}
