@@ -1,5 +1,5 @@
 .div1{
-	background-color:black;
+	background-color:#1f1a17;
 	color:white;
 	padding:10px;	
 }
@@ -54,7 +54,7 @@ p{
 }
 .rightdiv{
 	width:30%; 
-	margin-bottom: 15px; 
+	margin-bottom: 20px; 
 	border: 3px solid #005bb7;
 	float:right;
 }
@@ -75,10 +75,10 @@ hr{
 	font-size: x-large
 }
 .listitem0:hover{
-	background-color: #464749;
+	background-color: #7c7f84;
 }
 .listitem1:hover{
-	background-color: black;
+	background-color: #7c7f84;
 }
 ul {
     list-style-type: none;
@@ -90,7 +90,7 @@ ul {
 
 li {
     float: left;
-    margin-left: 40px;
+   
 }
 
 li a, .dropbtn {
@@ -99,6 +99,7 @@ li a, .dropbtn {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    margin-left: 40px;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
@@ -132,17 +133,17 @@ li.dropdown {
     display: block;
 }
 input[type=text] {
-    width: 400px;
+    width: 200px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
     background-color: white;
     background-image: url('https://d30y9cdsu7xlg0.cloudfront.net/png/6983-200.png');
-    background-position: 5px 5px;
+    background-position: 5px 3px;
     background-size: 19px 19px;
     background-repeat: no-repeat;
-    padding: 6px 6px 6px 40px;
+    padding: 4px 6px 4px 40px;
 }
 td{
 	position:relative;
@@ -206,7 +207,7 @@ div.desc {
 
 
 @keyframes slidy {
-	100%{left: -17.5%;}
+	100%{left: -19%;}
 }
 
 
@@ -218,8 +219,9 @@ div#slider{
   	left: 0;
   	text-align: left;
   	font-size: 10;
-  	animation: 10s slidy infinite;
-  	animation-direction: alternate; 
+  	animation: 7s slidy infinite;
+  	animation-direction: alternate;
+    animation-timing-function: linear; 
 
 }
 
@@ -228,16 +230,19 @@ div#slider:hover{
 
 }
 .slideshow {
-  margin-left: 100px;
-  margin-right: 100px; 
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 20px;  
   overflow: hidden;
-  border: solid 1px white;
+  border: 3px solid #005bb7;
+  float: left;
+
 }
 
 .slideshow-container {
   width: 2500px;
   font-size: 0;
-  transition: 1s ease;
+  transition: 0.5s ease;
   height: 225px;
 }
 .hovertext{
@@ -245,4 +250,9 @@ div#slider:hover{
 	font-size: larger;
 	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; 	
 }
-
+button{
+    background-color: #006aa6;
+    padding: 5.5px 15px;
+    border-color: #006aa6; 
+    
+}
