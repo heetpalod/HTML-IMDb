@@ -1,7 +1,7 @@
 .div1{
 	background-color:black;
 	color:white;
-	padding:20px;	
+	padding:5px;	
 }
 .logo{
 	width:200px;
@@ -15,17 +15,16 @@
 	font-size:50px;
 	font-family:'Times Header';
 	margin-top: 30px;
-    margin-bottom: 30px;
+  margin-bottom: 10px;
+  margin-left: 200px;
 }
-.div2{
-	background-color:#525453;
-	color:white;
-	padding:20px;
-	display: block;
-	text-align: center; 
+button{
+  background-color: #006aa6;
+  padding: 7.5px 15px;
+  border-color: #006aa6;
 }
 .div3{
-	background-color:#9B9DA0;
+	background-color:#525453;
 	color:white;
 	display: block;
 	text-align: center;
@@ -228,8 +227,7 @@ div#slider:hover{
 
 }
 .slideshow {
-  margin-left: 100px;
-  margin-right: 100px; 
+ 
   overflow: hidden;
   border: solid 1px white;
 }
