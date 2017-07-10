@@ -180,18 +180,37 @@ div.desc {
 
 
 @keyframes slidy {
-100% { left: -100%; }
+	100%{left: -17.5%;}
 }
 
-body { margin: 0; } 
 
 div#slider{ 
-      position: relative;
 
-  width: 200%;
-  margin: 10px;
-  left: 100px;
-  font-size: 10;
-  animation: 150s slidy infinite; 
+	overflow: hidden;
+	position: relative;
+  	width: 500%;
+  	left: 0;
+  	text-align: left;
+  	font-size: 10;
+  	animation: 10s slidy infinite;
+  	animation-direction: alternate; 
+
 }
 
+div#slider:hover{
+	animation-play-state: paused;
+
+}
+.slideshow {
+  margin-left: 100px;
+  margin-right: 100px; 
+  overflow: hidden;
+  border: solid 1px white;
+}
+
+.slideshow-container {
+  width: 2500px;
+  font-size: 0;
+  transition: 1s ease;
+  height: 225px;
+}
