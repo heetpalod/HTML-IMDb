@@ -1,7 +1,7 @@
 .div1{
 	background-color:#1f1a17;
 	color:white;
-	padding:10px;	
+	padding:5px;	
 }
 .logo{
 	width:200px;
@@ -15,17 +15,16 @@
 	font-size:50px;
 	font-family:'Times Header';
 	margin-top: 30px;
-    margin-bottom: 30px;
+  margin-bottom: 10px;
+  margin-left: 200px;
 }
-.div2{
-	background-color:#525453;
-	color:white;
-	padding:20px;
-	display: block;
-	text-align: center; 
+button{
+  background-color: #006aa6;
+  padding: 7.5px 15px;
+  border-color: #006aa6;
 }
 .div3{
-	background-color:#9B9DA0;
+	background-color:#525453;
 	color:white;
 	display: block;
 	text-align: center;
@@ -256,3 +255,32 @@ button{
     border-color: #006aa6; 
     
 }
+
+.main{
+    background-color:#9B9DA0;
+}
+.one{
+    background-color:#3F3F3F;
+}
+h1{
+    text-align:center;
+    margin: 0;
+    margin-bottom: 30px;
+    } 
+.image{
+    margin-left:275px; float:left; padding:15px; border: 3px solid black;
+    padding-top: 10px;
+}
+img{
+    border="1"
+}
+.two{
+    border:4px double white;margin-right:150px;padding-left:20px;padding-right:20px;margin-top:100px; float:right; background-color:black
+}
+h2{
+    text-align:center;
+}
+.three{
+       border:2px solid black;margin-left:250;margin-right:150;margin-top: 20 ; margin-bottom:20;background-color:c0c6d1;text-align:justify;float:left; clear:left;padding-top:3px;padding-left:20px;padding-right:20px;background-color: #9B9DA0
+}
+

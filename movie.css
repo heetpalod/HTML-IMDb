@@ -1,5 +1,5 @@
 .main{
-	background-color:#525453
+	background-color:#9v9dA0
 }
 .one{
 	background-color:c0c6d1
@@ -14,11 +14,11 @@ img{
 	border="1"
 }
 .two{
-	border:4px solid white;margin-right:150px;padding-left:20px;padding-right:20px;margin-top:100px; float:right; background-color:black
+	border:4px double white;margin-right:150px;padding-left:20px;padding-right:20px;margin-top:100px; float:right; background-color:black
 }
 h2{
 	text-align:center;
 }
 .three{
-	   background-color:c0c6d1;text-align:justify;float:left; clear:left; padding-top:3px;padding-left:275px;padding-right:200px
+	   border:2px solid black;margin-left:250;margin-right:150;margin-top: 20 ;background-color:c0c6d1;text-align:justify;float:left; clear:left;padding-top:3px;padding-left:20px;padding-right:20px
 }
