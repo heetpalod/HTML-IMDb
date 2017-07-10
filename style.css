@@ -1,7 +1,7 @@
 .div1{
 	background-color:black;
 	color:white;
-	padding:20px;	
+	padding:5px;	
 }
 .logo{
 	width:200px;
@@ -223,4 +223,28 @@ div#slider{
 	color: black;
 	font-size: larger;
 	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; 	
+}
+.main{
+    background-color:#9B9DA0
+}
+.one{
+    background-color:#9B9DA0
+}
+h1{
+    text-align:center;border:2px solid black;
+    } 
+.image{
+    margin-left:275px; float:left; padding:15px; border: 3px solid black
+}
+img{
+    border="1"
+}
+.two{
+    border:4px double white;margin-right:150px;padding-left:20px;padding-right:20px;margin-top:100px; float:right; background-color:black
+}
+h2{
+    text-align:center;
+}
+.three{
+       border:2px solid black;margin-left:250;margin-right:150;margin-top: 20 ; margin-bottom:20;background-color:c0c6d1;text-align:justify;float:left; clear:left;padding-top:3px;padding-left:20px;padding-right:20px;background-color: #9B9DA0
 }
