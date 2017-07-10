@@ -184,6 +184,7 @@ div.desc {
 }
 
 body { margin: 0; } 
+
 div#slider{ 
       position: relative;
 
@@ -193,3 +194,4 @@ div#slider{
   font-size: 10;
   animation: 150s slidy infinite; 
 }
+
