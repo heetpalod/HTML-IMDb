@@ -245,16 +245,19 @@ div#slider:hover{
 }
 
 .main{
-    background-color:#9B9DA0
+    background-color:#9B9DA0;
 }
 .one{
-    background-color:#9B9DA0
+    background-color:#3F3F3F;
 }
 h1{
-    text-align:center;border:2px solid black;
+    text-align:center;
+    margin: 0;
+    margin-bottom: 30px;
     } 
 .image{
-    margin-left:275px; float:left; padding:15px; border: 3px solid black
+    margin-left:275px; float:left; padding:15px; border: 3px solid black;
+    padding-top: 10px;
 }
 img{
     border="1"
