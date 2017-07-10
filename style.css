@@ -1,0 +1,195 @@
+.div1{
+	background-color:black;
+	color:white;
+	padding:20px;	
+}
+.logo{
+	width:200px;
+	height:75px;
+	float:left; 
+	margin-left: 50px; 
+	margin-top: 40px
+}
+.title{
+	color:#006aa6;
+	font-size:50px;
+	padding-left:350px;
+	font-family:'Times Header'
+}
+.div2{
+	background-color:#525453;
+	color:white;
+	padding:20px;
+	display: block;
+	text-align: center; 
+}
+.div3{
+	background-color:#9B9DA0;
+	color:white;
+	display: block;
+	text-align: center;
+}
+.bdiv{
+	padding-right: 100px; 
+	padding-left: 100px;
+	background-color: #c0c6d1;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	overflow: hidden;
+}
+.maindiv{
+	width:66%; 
+	border: 3px solid #005bb7;
+	float:left;
+	overflow-x: auto; 
+	white-space: nowrap; 
+	background-color:#8dc1fc
+}
+td{
+	padding: 25px;
+}
+p{
+	text-align: center;
+}
+.rightdiv{
+	width:30%; 
+	margin-bottom: 15px; 
+	border: 3px solid #005bb7;
+	float:right;
+}
+hr{
+	margin: 0;
+	color: grey;
+}
+.listitem0{
+	color: #c74434;
+	margin: 0px;
+	background-color: black;
+	font-size: x-large
+}
+.listitem1{
+	color: #c74434;
+	margin: 0px;
+	background-color: #464749;
+	font-size: x-large
+}
+.listitem0:hover{
+	background-color: #464749;
+}
+.listitem1:hover{
+	background-color: black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #9B9DA0;
+}
+
+li {
+    float: left;
+    margin-left: 40px;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+input[type=text] {
+    width: 400px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('https://d30y9cdsu7xlg0.cloudfront.net/png/6983-200.png');
+    background-position: 5px 5px;
+    background-size: 19px 19px;
+    background-repeat: no-repeat;
+    padding: 6px 6px 6px 40px;
+}
+td:hover{
+	background-color: #ff5733;
+}
+.movielink{
+	text-decoration: none;
+	font-weight: bold;
+    font-size: large;
+    color: #005bb7;
+}
+
+div.gallery {
+	background-color: black;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 5px solid #FF5733  ;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+div.desc {
+	background-color: white;
+    padding: 15px;
+    text-align: center;
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+@keyframes slidy {
+100% { left: -100%; }
+}
+
+body { margin: 0; } 
+div#slider{ 
+      position: relative;
+
+  width: 200%;
+  margin: 10px;
+  left: 100px;
+  font-size: 10;
+  animation: 150s slidy infinite; 
+}
